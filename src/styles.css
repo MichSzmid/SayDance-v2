@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700;900&display=swap');
+* {
+  box-sizing: border-box;
+}
+
+body{
+  margin:0;
+  padding:0;
+  background-color: #fafafa;
+  font-family: 'Lato', sans-serif;
+  overflow: scroll;
+  overflow-x:hidden;
+}
+
+section#main{
+  position:absolute;
+  z-index:0;
+  width:100%;
+}
+section#navbar{
+  width:100%;
+  height:10%;
+  position:fixed;
+  
+  z-index: 20;
+  left:0;
+  top:0;
+}
+.navbar{
+  display:block;
+  width:auto;
+  height:8px;
+   text-align:right;
+}
+
+.navbar>ul>li{
+  list-style: none;
+  display: inline;
+  margin: 0 12px 0 0;
+  color:#f5f5f5;
+  position:relative;
+  cursor:pointer;
+  transition:0.8s;
+}
+.navbar>ul>li:hover{
+  color:rgb(209, 209, 209);
+  transition:0.2s;
+  text-shadow:1px 1px 10px #505050;
+}
+.navbar>ul>li>a{
+  display: inline-block;
+    padding: 8px 13px;
+    line-height: 32px;
+    font-size:18px;
+    letter-spacing: 2.5px;;
+    text-decoration: none;
+    user-select: none;
+}
+
+.header{
+  position:relative;
+  width:100vw;
+  min-height: 100vh;
+  z-index:0;
+  background-image: url(./Images/1\ Header/Foto_glowne.png);
+  background-size:cover;
+
+  text-align:center;
+  overflow:hidden;
+}
+.header-logo{
+  position:absolute;
+  display:ruby;
+   top: 32%;
+  width:100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.logo1{
+  background-image: url(./Images/1\ Header/SayDance.png);
+  position:relative;
+  background-position: center bottom;
+  background-size:contain;
+  width:100%;
+  min-height: 250px;
+  min-width: 200px;
+}
+.logo2{
+  background-image: url(./Images/1\ Header/studio_tanca.png);
+  width:100%;
+  background-position: center top;
+  background-size:18%;
+  min-height: 50px;
+  min-width: 200px;
+}
+
+.background-image{
+  user-select: none; /* CSS3 */
+  background-position-x: 50%;
+  background-attachment:local;
+  background-repeat: no-repeat;
+  user-drag: none;
+  -webkit-user-select: none; /* Safari, Chrome */
+  -webkit-user-drag: none;
+  -khtml-user-select: none; /* Konqueror */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE */
+}
+
+.content{
+  position:relative;
+  width:100%;
+  height: 100vh;
+  text-align: center;
+}
+.content-title{
+  color: rgb(187, 141, 118);
+    font-size: 48px;
+    font-weight: 800;
+    font-family: "Abril Fatface";
+    line-height: 50px;
+    padding: 50px 0 30px 0;
+    margin:0;
+}
+
+.about{
+  background-image: url(./Images/2 O nas/Foto_o_nas.png);
+  background-size: cover;
+  background-position-y:60%;
+  height: 760px;
+}
+.activities{
+  background-color:rgb(255,255,255);
+  padding:20px 0 72px 0;
+}
+.activities-grid{
+  display:grid;
+  grid-template-columns: 25% 25% 25%;
+  gap: 200px;
+  background-color: antiquewhite;
+}
+..activities-grid > .activity{
+  width:30%;
+  height:250px;
+}
