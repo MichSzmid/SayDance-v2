@@ -39,17 +39,11 @@ function Activities() {
     <div className="App">
       <div className="content activities background-image">
         <p className="content-title">Nasze zajęcia</p>
-        <div className="activities-grid">
+        {/* <div className="activities-grid">
             {activities.map((Acti)=>(
                 <div key={Acti.key} className={'activity grid'+Acti.key}>{Acti.name}</div>
             ))}
-          {/* <div className="grid1">x</div>
-          <div className="grid2">n</div>
-          <div className="grid3">x</div>
-          <div className="grid4">x</div>
-          <div className="grid5">x</div>
-          <div className="grid6">x</div> */}
-        </div>
+        </div> */}
       </div>
     </div>
   );
