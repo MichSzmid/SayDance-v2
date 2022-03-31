@@ -1,0 +1,30 @@
+.button-class  {
+    font-family:inherit;
+    font-size: 20px;
+    /* background-color:rgb(76, 43, 226); */
+    padding:12px 34px 12px 34px;
+    border-radius: 10px;
+    color:#fff;
+    cursor:pointer;
+    margin:0;
+    font-weight: lighter;
+    border:none;
+    position:relative;
+    display: block;
+    background-image: linear-gradient(to right, rgb(187, 141, 118) 20%, rgb(187, 151, 128) 60%, rgb(187, 141, 118) 90%);
+    background-size: 200%;
+    background-position:0%;
+    transition: 0.9s;
+    background-color: rgb(187, 141, 118);
+    bottom:-10px;
+}
+.button-class:hover{
+    box-shadow: 0 0 6px rgb(95, 95, 95);
+    color: #adadad;
+    transition: 0.3s;
+    background-position: 100%;
+}
+.button-class:active{
+    background-color:rgb(96, 106, 197);
+    box-shadow: 0 0 8px rgb(43, 43, 43);
+}
