@@ -1,30 +1,37 @@
 .button-class  {
-    font-family:inherit;
+    display: block;
+    position:absolute;
+    bottom:5%;
+    left:10%;
+    right:10%;
+    padding:12px 34px 12px 34px;
+
+    font-family:"Abril Fatface";
     font-size: 20px;
     /* background-color:rgb(76, 43, 226); */
-    padding:12px 34px 12px 34px;
     border-radius: 10px;
-    color:#fff;
+    color:rgb(235, 235, 235);
     cursor:pointer;
     margin:0;
     font-weight: lighter;
     border:none;
-    position:relative;
-    display: block;
-    background-image: linear-gradient(to right, rgb(187, 141, 118) 20%, rgb(187, 151, 128) 60%, rgb(187, 141, 118) 90%);
+
+    background-image: linear-gradient(to right, rgb(187, 141, 118) 30%, rgb(196, 175, 163) 60%, rgb(187, 141, 118) 90%);
     background-size: 200%;
     background-position:0%;
     transition: 0.9s;
-    background-color: rgb(187, 141, 118);
-    bottom:-10px;
 }
 .button-class:hover{
-    box-shadow: 0 0 6px rgb(95, 95, 95);
-    color: #adadad;
-    transition: 0.3s;
+    box-shadow: 0 0 6px rgb(138, 138, 138);
+    color: #ffffff;
+    text-shadow: 0px 0px 3px rgb(219, 219, 219);
     background-position: 100%;
+    transition: 0.3s;
 }
 .button-class:active{
     background-color:rgb(96, 106, 197);
     box-shadow: 0 0 8px rgb(43, 43, 43);
+    background-image: linear-gradient(to right, rgb(197, 158, 138) 30%, rgb(211, 195, 186) 60%, rgb(194, 156, 137) 90%);
+    text-shadow: 0px 0px 5px rgb(230, 230, 230);
+    transition: 0.2s;
 }
