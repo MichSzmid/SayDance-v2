@@ -82,7 +82,7 @@ function Activities() {
 
   return (
     <div className="App">
-      <div className="content activities background-image">
+      <section className="content activities background-image">
         <p className="content-title">Nasze zajęcia</p>
          <div className="activities-grid">
             {activities.map((Acti)=>(
@@ -99,7 +99,7 @@ function Activities() {
                 </div>
             ))}
         </div> 
-      </div>
+      </section>
     </div>
   );
 }
