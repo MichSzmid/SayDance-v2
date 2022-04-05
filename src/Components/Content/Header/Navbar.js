@@ -16,7 +16,7 @@ const  Navbar = (props) =>  {
                     </Link>
                 </li>
                 <li>
-                    <Link activeClass="active" to="activities" spy={true} smooth={true} offset={-80} duration={600}>
+                    <Link activeClass="active" to="activities-grid" spy={true} smooth={true} offset={-160} duration={600}>
                         Zajęcia taneczne
                         </Link>
                 </li>
@@ -31,7 +31,7 @@ const  Navbar = (props) =>  {
                     </Link> 
                 </li>
                 <li>
-                    <Link activeClass="active" to="rules" spy={true} smooth={true} offset={-80} duration={600}>
+                    <Link activeClass="active" to="rules" spy={true} smooth={true} offset={-60} duration={600}>
                     Regulamin
                     </Link>
                 </li>

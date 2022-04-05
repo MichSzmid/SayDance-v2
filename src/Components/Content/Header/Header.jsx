@@ -10,7 +10,7 @@ const Header = () => {
                 <div className="logo2 background-image"></div>
                 <div className="vertical-line" style={{display:"block"}}></div>
                 <div className="center-scroll background-image">
-                    <Link activeClass="active" to="about" spy={true} smooth={true} offset={0} duration={500}></Link>
+                    <Link activeClass="active" to="about" spy={true} smooth={true} offset={-80} duration={500}></Link>
                 </div>
             </div>
         </div>

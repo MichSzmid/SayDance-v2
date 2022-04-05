@@ -81,7 +81,6 @@ function Activities() {
     ];
 
   return (
-    <div className="App">
       <section className="content activities background-image">
         <p className="content-title">Nasze zajęcia</p>
          <div className="activities-grid">
@@ -100,7 +99,6 @@ function Activities() {
             ))}
         </div> 
       </section>
-    </div>
   );
 }
 

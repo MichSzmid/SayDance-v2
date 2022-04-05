@@ -2,8 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 import App from './App';
-import Navbar from './Components/Header/Navbar';
-import Header from './Components/Header/Header';
+import Navbar from './Components/Content/Header/Navbar';
+import Header from './Components/Content/Header/Header';
 
 import '../src/styles.css'
 

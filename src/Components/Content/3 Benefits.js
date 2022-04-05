@@ -1,5 +1,10 @@
 import React from 'react';
 
+import Zabawa from '../../Images/4 Korzysci/dobra_zabawa.svg'
+import Odkrywanie from '../../Images/4 Korzysci/odkrywanie_siebie.svg'
+import Chwila from '../../Images/4 Korzysci/chwila_dla_ciebie.svg'
+import Poprawa from '../../Images/4 Korzysci/poprwa_ciala.svg'
+
 const Benefits = () => {
     return( 
         <section className="content benefits background-image">
@@ -16,6 +21,20 @@ const Benefits = () => {
                     Zapraszamy do naszego świata!
                 </span>
             </p>
+            <div className="benefits-icons">
+                <div className="benefits-icon-item background-image" style={{backgroundImage: `url(${(Zabawa)})` }}>
+                    Dobra <br/> zabawa
+                </div>
+                <div className="benefits-icon-item background-image" style={{backgroundImage: `url(${(Odkrywanie)})` }}>
+                    Odkrywanie <br/> siebie
+                </div>
+                <div className="benefits-icon-item background-image" style={{backgroundImage: `url(${(Chwila)})` }}>
+                    Chwila tylko <br/> dla Ciebie
+                </div>
+                <div className="benefits-icon-item background-image" style={{backgroundImage: `url(${(Poprawa)})` }}>
+                    Poprawa ciała <br/> i ducha
+                </div>
+            </div>
             <div className="background-image floating-image" style={{right:"10%",top:"25%"}}>
 
             </div>
