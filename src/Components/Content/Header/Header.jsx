@@ -3,7 +3,7 @@ import { Link, animateScroll as scroll } from "react-scroll";
 
 const Header = () => {
     return( 
-         <div className="active header background-image">
+         <div className="active header background-image" id="home">
              
              <div className="header-logo">
                 <div className="logo1 background-image"></div>

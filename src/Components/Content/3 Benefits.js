@@ -9,6 +9,7 @@ const Benefits = () => {
     return( 
         <section className="content benefits background-image">
             <h1 className="content-title">Wyjątkowe korzyści</h1>
+            <div className="background-image floating-image"></div>
             <p>Naszym marzeniem było stworzenie miejsca,
                 w którym poczujesz komfort bycia sobą. 
                 To kawałek tanecznego nieba. Chcemy Wam pokazać,
@@ -34,9 +35,6 @@ const Benefits = () => {
                 <div className="benefits-icon-item background-image" style={{backgroundImage: `url(${(Poprawa)})` }}>
                     Poprawa ciała <br/> i ducha
                 </div>
-            </div>
-            <div className="background-image floating-image" style={{right:"10%",top:"25%"}}>
-
             </div>
         </section>
     )
