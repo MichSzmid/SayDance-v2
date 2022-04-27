@@ -6,7 +6,7 @@ const  Navbar = () =>  {
     
     const [NavScroll, setNavScroll ] = useState(false);
     const colorChange = () => {
-        if(window.scrollY>=310) {
+        if(window.scrollY>=920) {
             setNavScroll(true);
         } else {
             setNavScroll(false);
@@ -23,27 +23,27 @@ const  Navbar = () =>  {
                     </Link>
                 </li>
                 <li>
-                    <Link activeClass="active" to="about" spy={true} smooth={true} offset={-60} duration={500}>
+                    <Link activeClass="active" to="about" spy={true} smooth={true} offset={0} duration={500}>
                         O nas
                     </Link>
                 </li>
                 <li>
-                    <Link activeClass="active" to="activities-grid" spy={true} smooth={true} offset={-160} duration={600}>
+                    <Link activeClass="active" to="activities-grid" spy={true} smooth={true} offset={0} duration={600}>
                         Zajęcia taneczne
                     </Link>
                 </li>
                 <li>
-                    <Link activeClass="active" to="timetable" spy={true} smooth={true} offset={60} duration={600}>
+                    <Link activeClass="active" to="timetable" spy={true} smooth={true} offset={0} duration={600}>
                     Grafik
                     </Link>
                 </li>
                 <li>
-                    <Link activeClass="active" to="footer" spy={true} smooth={true} offset={-900} duration={600}>
+                    <Link activeClass="active" to="footer" spy={true} smooth={true} offset={0} duration={600}>
                     Kontakt
                     </Link> 
                 </li>
                 <li>
-                    <Link activeClass="active" to="rules" spy={true} smooth={true} offset={-60} duration={600}>
+                    <Link activeClass="active" to="rules" spy={true} smooth={true} offset={0} duration={600}>
                     Regulamin
                     </Link>
                 </li>

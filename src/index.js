@@ -7,7 +7,7 @@ import Header from './Components/Content/Header/Header';
 
 import '../src/styles.css'
 
-
+window.scrollTo(0, 1);
 ReactDOM.render(<Navbar /*NavScroll={NavbarScroll}*/ />,document.getElementById('navbar'));
 ReactDOM.render(<Header/>,document.getElementById('header'));
 ReactDOM.render(<App/>,document.getElementById('content'));
